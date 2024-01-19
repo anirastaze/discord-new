@@ -45,8 +45,8 @@
   /* Background color */
   --background-primary: #222222;
   --background-secondary: #1a1919;
-  --background-secondary-alt: #3b1d24;
-  --background-tertiary: #220f14;
+  --background-secondary-alt: #313030;
+  --background-tertiary: #111111;
   --background-floating: #221115;
   --background-accent: #c5536c;
   --channeltextarea-background: var(--background-secondary);
@@ -55,7 +55,7 @@
   --background-modifier-active: #222222;
   --background-modifier-selected: #222222;
   --toast-background: #31272a !important;
-  --toast-header: #3b1d24 !important;
+  --toast-header: #313030 !important;
   --toast-contents: #1a1919 !important;
   --toast-border: #1a1919 !important;
   --input-background: var(--background-secondary);
