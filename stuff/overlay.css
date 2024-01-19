@@ -1,4 +1,4 @@
-:root .app-2CXKsg::after, :root .app-2CXKsg::before, :root .layers-OrUESM::before, :root .layers-OrUESM::after, :root .app-3xd6d0::before, :root .bg-1QIAus::after, :root .bg-1QIAus::before {
+:root .app-2CXKsg::after, :root .app-2CXKsg::before, :root .layers-OrUESM::before, :root .layers-OrUESM::after, :root .bg-1QIAus::after, :root .bg-1QIAus::before {
   content: "";
   position: fixed;
   z-index: 1;
