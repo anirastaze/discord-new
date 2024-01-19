@@ -166,3 +166,11 @@
   background-size: 100%;
 }
 
+:root .app_b1f720::before {
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: 250px;
+  background: url("https://i.imgur.com/Di7oCsS.jpeg") no-repeat;
+  background-size: 100%;
+}
