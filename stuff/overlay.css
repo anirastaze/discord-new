@@ -21,14 +21,14 @@
   background: url("https://i.imgur.com/KQQWcTY.png") no-repeat; /*нотка*/
   background-size: 100%;
 }
-:root .app-2CXKsg::before {
+/* :root .app-2CXKsg::before {
   top: 80px;
   right: 116px;
   width: 200px;
   height: 120px;
-  background: url("https://imgur.com/a/OSxOzaR") no-repeat; /*право верх*/
-  background-size: 100%;
-}
+  background: url("https://imgur.com/a/OSxOzaR") no-repeat; /*право верх*/ */
+  /*background-size: 100%; } */
+
 :root .app-2CXKsg::after {
   bottom: 20px;
   right: 45%;
