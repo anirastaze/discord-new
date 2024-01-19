@@ -6,12 +6,12 @@
 * @version 1.4
 * @donate https://ko-fi.com/nyria
 */
-/* @import url("https://raw.githubusercontent.com/anirastaze/discord-new/main/RUN.css?token=GHSAT0AAAAAACNBWFTDCKSPXYDTOLMCUQYYZNKWZHQ"); */
+@import url("https://anirastaze.github.io/discord-new/main.css");
 /* @import url("https://nyri4.github.io/LilyPichu/main.css"); */
 
 /* Remove decorations */
 /* @import url("https://raw.githubusercontent.com/anirastaze/discord-new/main/stuff/overlay.css?token=GHSAT0AAAAAACNBWFTCOH4QAHX7ANJIFG7YZNKO77Q"); */
-/* @import url("https://nyri4.github.io/LilyPichu/stuff/overlay.css"); */
+@import url("https://anirastaze.github.io/discord-new/stuff/overlay.css");
 
 :root {
   /* --- User variables --- */
