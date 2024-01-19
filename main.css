@@ -1820,8 +1820,8 @@
   bottom: 0;
   width: 490px;
   height: 40px;
-  background: url("https://i.imgur.com/KQQWcTY.png") no-repeat;
-  background-size: 100%;
+  background: #000000/*url("https://i.imgur.com/KQQWcTY.png") no-repeat; /*нотка*/
+  /* background-size: 100%; */
 }
 :root .app_de4237::before {
   top: 80px;
