@@ -1336,7 +1336,7 @@
     background-color: var(--background-primary);
   }
   :root .nowPlayingColumn_f5023f::before {
-    content: "Friends activity";
+    content: "Микрочелы";
     position: absolute;
     top: -60px;
     z-index: 1;
