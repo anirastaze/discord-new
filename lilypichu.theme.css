@@ -166,12 +166,3 @@
   background-size: 100%;
 }
 
-:root .app-3xd6d0::after {
-  z-index: 0;
-  left: 50px;
-  bottom: 0;
-  width: 490px;
-  height: 40px;
-  background: #000000/*url("https://i.imgur.com/KQQWcTY.png") no-repeat; /*нотка*/
-  /* background-size: 100%; */
-}
