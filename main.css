@@ -1800,20 +1800,13 @@
   border-radius: var(--border-radius);
 }
 
-:root .app_b1f720::before, :root .app_b1f720::after, :root .app_de4237::after, :root .app_de4237::before, :root .layers__1c917::before, :root .layers__1c917::after, :root .app_b1f720::before, :root .bg__12180::after, :root .bg__12180::before {
+:root .app_de4237::after, :root .app_de4237::before, :root .layers__1c917::before, :root .layers__1c917::after, :root .bg__12180::after, :root .bg__12180::before {
   content: "";
   position: fixed;
   z-index: 1;
   pointer-events: none;
 }
-:root .app_b1f720::before {
-  left: 0;
-  top: 0;
-  width: 250px;
-  height: 250px;
-  background: url("https://i.imgur.com/jTpFJuI.png") no-repeat;
-  background-size: 100%;
-}
+
 
 :root .app_de4237::before {
   top: 80px;
