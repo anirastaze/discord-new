@@ -22,7 +22,7 @@
   /* Background (if you want an image replace it by : 
 
 --background-tertiary-alt: url("image-link"); without that => */
-  --background-tertiary-alt: #000000;
+  --background-tertiary-alt: #101010;
 
   /* Border-radius for the whole theme */
   --border-radius: 20px;
@@ -43,21 +43,21 @@
   --interactive-active: #e2c1c7;
 
   /* Background color */
-  --background-primary: #5e3640;
-  --background-secondary: #49292f;
+  --background-primary: #222222;
+  --background-secondary: #1a1919;
   --background-secondary-alt: #3b1d24;
   --background-tertiary: #220f14;
   --background-floating: #221115;
   --background-accent: #c5536c;
   --channeltextarea-background: var(--background-secondary);
   --modal-background: var(--background-primary);
-  --background-modifier-hover: #5e36403b;
-  --background-modifier-active: #5e364058;
-  --background-modifier-selected: #5e364068;
-  --toast-background: #5e3640 !important;
+  --background-modifier-hover: #222222;
+  --background-modifier-active: #222222;
+  --background-modifier-selected: #222222;
+  --toast-background: #31272a !important;
   --toast-header: #3b1d24 !important;
-  --toast-contents: #49292f !important;
-  --toast-border: #49292f !important;
+  --toast-contents: #1a1919 !important;
+  --toast-border: #1a1919 !important;
   --input-background: var(--background-secondary);
 
   /* Scrollbar */
@@ -155,4 +155,13 @@
 .colorDefault-CDqZdO.focused-3qFvc8,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
   color: var(--interactive-normal);
+}
+
+:root .app_de4237::before {
+  top: 40px;
+  right: 60px;
+  width: 300px;
+  height: 160px;
+  background: url("https://i.imgur.com/Di7oCsS.jpeg") no-repeat;
+  background-size: 100%;
 }
