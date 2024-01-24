@@ -17,7 +17,7 @@
   /* --- User variables --- */
 
   /* Jumping GIF */
-  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif"); /* гифка идл */
+  --jumping-gif: url("https://i.imgur.com/sIro33z.gif"); /* гифка идл */
 
   /* Background (if you want an image replace it by : 
 
@@ -27,7 +27,6 @@
   /* Border-radius for the whole theme */
   --border-radius: 20px;
 }
-
 
 .theme-dark {
   /* Text */
@@ -160,10 +159,10 @@
 
 :root .app_de4237::before {
   top: 40px;
-  right: 60px;
+  right: 68px;
   width: 300px;
   height: 160px;
-  background: url("https://i.imgur.com/Di7oCsS.jpeg") no-repeat;
+  background: url("https://i.imgur.com/sIro33z.gif") no-repeat;
   background-size: 100%;
 }
 
@@ -172,7 +171,7 @@
   top: 0;
   width: 500px;
   height: 250px;
-  background: url("https://i.imgur.com/Di7oCsS.jpeg") no-repeat;
+  background: url("https://i.imgur.com/sIro33z.gif") no-repeat;
   background-size: 100%;
 }
 
@@ -192,3 +191,53 @@
   background-color: var(--background-secondary);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
+
+:root .ready__61f2f + .text__32559::before {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background: var(--jumping-gif) center/80% no-repeat;
+}
+
+.container__037ed::after {
+    content: "";
+    position: fixed;
+    top: 220px;
+    bottom: 85px;
+    right: 60px;
+    z-index: -2;
+    width: 320px;
+    background-color: var(--background-primary);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--text-normal);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: url("https://media1.tenor.com/m/VeTdVYdRIcwAAAAd/cat.gif") no-repeat center center;
+    
+    background-size: cover;
+    
+  }
+
+    :root .nowPlayingColumn_f5023f::before {
+    content: "а)ктивность";
+    position: absolute;
+    top: -60px;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--header-primary);
+    background-color: var(--background-secondary);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
